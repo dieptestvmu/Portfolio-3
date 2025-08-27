@@ -7,14 +7,13 @@ Dùng để xây dựng trang cá nhân giới thiệu bản thân, dự án và
 
 ## 📂 Cấu trúc thư mục
 
-
 portfolio-template/
-│── index.html      # Trang chính của website
-│── style.css       # File CSS (bao gồm light/dark mode)
-│── script.js       # File JS (menu, smooth scroll, filter, dark mode)
-│── favicon.ico     # Icon của website
+│── index.html # Trang chính của website
+│── style.css # File CSS (bao gồm light/dark mode)
+│── script.js # File JS (menu, smooth scroll, filter, dark mode)
+│── favicon.ico # Icon của website
 
-
+---
 
 ## 🛠️ Cách chỉnh sửa
 
@@ -26,59 +25,56 @@ portfolio-template/
   .btn-cta { background: #3366ff; }
   body.dark .btn-cta { background: #3366ff; }
 
-### 📝 Text
+📝 Text
 
-* Chỉnh trong `index.html`, ví dụ phần Hero:
+Chỉnh trong index.html, ví dụ phần Hero:
+<h1>Xin chào, tôi là <span class="highlight">Nguyễn Văn A</span></h1>
+<h2>Front-End Developer</h2>
 
-  ```html
-  <h1>Xin chào, tôi là <span class="highlight">Nguyễn Văn A</span></h1>
-  <h2>Front-End Developer</h2>
-  ```
+🖼️ Ảnh
 
-### 🖼️ Ảnh
+Thay link placeholder https://via.placeholder.com/... bằng ảnh thật của bạn.
 
-* Thay link placeholder `https://via.placeholder.com/...` bằng ảnh thật của bạn.
-* Ví dụ trong Projects:
+Ví dụ trong Projects:
+<img src="images/project1.png" alt="Project 1">
+🚀 Deploy Website
 
-  ```html
-  <img src="images/project1.png" alt="Project 1">
-  ```
+Bạn có thể deploy miễn phí lên Netlify hoặc Vercel.
 
----
+✅ Deploy với Netlify
 
-## 🚀 Deploy Website
+Vào Netlify
+ → Đăng nhập.
 
-Bạn có thể deploy miễn phí lên **Netlify** hoặc **Vercel**.
+Nhấn Add new site → Import an existing project.
 
-### ✅ Deploy với Netlify
+Kết nối GitHub (hoặc upload trực tiếp folder portfolio-template).
 
-1. Vào [Netlify](https://app.netlify.com/) → Đăng nhập.
-2. Nhấn **Add new site** → **Import an existing project**.
-3. Kết nối GitHub (hoặc upload trực tiếp folder `portfolio-template`).
-4. Netlify sẽ build và cho bạn link dạng `yourname.netlify.app`.
+Netlify sẽ build và cho bạn link dạng yourname.netlify.app.
 
-### ✅ Deploy với Vercel
+✅ Deploy với Vercel
 
-1. Vào [Vercel](https://vercel.com/) → Đăng nhập bằng GitHub.
-2. Nhấn **New Project** → Import repo `portfolio-template`.
-3. Nhấn **Deploy** → Lấy link dạng `yourname.vercel.app`.
+Vào Vercel
+ → Đăng nhập bằng GitHub.
 
----
+Nhấn New Project → Import repo portfolio-template.
 
-## ✨ Tính năng nổi bật
+Nhấn Deploy → Lấy link dạng yourname.vercel.app.
 
-* Responsive trên mobile, tablet, desktop
-* Hero section với CTA **Hire Me**
-* Projects section có filter (All / Web / Design / App)
-* Dark/Light mode lưu trạng thái bằng `localStorage`
-* SEO friendly (meta tags, Open Graph, Twitter Card)
+✨ Tính năng nổi bật
 
----
+Responsive trên mobile, tablet, desktop
 
-## 📌 Ghi chú
+Hero section với CTA Hire Me
 
-* Code viết đơn giản, dễ chỉnh sửa cho người mới.
-* Có thể mở rộng thêm blog, trang chi tiết dự án, hoặc CMS nếu muốn.
+Projects section có filter (All / Web / Design / App)
 
-```
-```
+Dark/Light mode lưu trạng thái bằng localStorage
+
+SEO friendly (meta tags, Open Graph, Twitter Card)
+
+📌 Ghi chú
+
+Code viết đơn giản, dễ chỉnh sửa cho người mới.
+
+Có thể mở rộng thêm blog, trang chi tiết dự án, hoặc CMS nếu muốn.
