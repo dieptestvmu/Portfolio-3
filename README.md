@@ -16,7 +16,6 @@ portfolio-template/
 │── favicon.ico     # Icon của website
 
 
----
 
 ## 🛠️ Cách chỉnh sửa
 
