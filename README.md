@@ -15,7 +15,6 @@ portfolio-template/
 │── script.js       # File JS (menu, smooth scroll, filter, dark mode)
 │── favicon.ico     # Icon của website
 
-````
 
 ---
 
@@ -28,7 +27,6 @@ portfolio-template/
   .logo { color: #3366ff; }
   .btn-cta { background: #3366ff; }
   body.dark .btn-cta { background: #3366ff; }
-````
 
 ### 📝 Text
 
