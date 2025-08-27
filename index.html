@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Portfolio Template</title>
+
+  <!-- SEO meta -->
+  <meta name="description" content="Portfolio Template hiện đại, responsive, dễ tuỳ chỉnh.">
+  <meta name="keywords" content="portfolio, template, html css, responsive, web developer">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Modern Portfolio Template">
+  <meta property="og:description" content="Template Portfolio chuyên nghiệp, responsive, dễ dùng.">
+  <meta property="og:image" content="preview.jpg">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link id="theme-link" rel="stylesheet" href="assets/css/style.creative.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <section class="hero">
+    <h2>Xin chào, tôi là <span class="highlight">Điệp</span></h2>
+    <p>Web Developer - Sáng tạo - Năng động</p>
+  </section>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>Đây là portfolio template hiện đại, hỗ trợ dark/light mode, responsive và dễ chỉnh sửa.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Kỹ năng</h2>
+    <div class="skill"><span>HTML</span><div class="bar html"></div></div>
+    <div class="skill"><span>CSS</span><div class="bar css"></div></div>
+    <div class="skill"><span>JS</span><div class="bar js"></div></div>
+  </section>
+
+  <section class="projects">
+    <h2>Dự án</h2>
+    <div class="filter">
+      <button data-filter="all">Tất cả</button>
+      <button data-filter="web">Web</button>
+      <button data-filter="app">App</button>
+    </div>
+    <div class="grid">
+      <div class="card" data-cat="web">Web Project 1</div>
+      <div class="card" data-cat="app">App Project 1</div>
+      <div class="card" data-cat="web">Web Project 2</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Liên hệ</h2>
+    <form id="contact-form" method="POST">
+      <input type="text" name="name" placeholder="Tên" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Nội dung" required></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <footer>© 2025 Portfolio Template</footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
