@@ -1,4 +1,3 @@
-```markdown
 # 🌐 Portfolio Template
 
 Một template portfolio hiện đại, responsive, có hỗ trợ **Dark/Light Mode**, filter dự án, và tối ưu SEO.  
