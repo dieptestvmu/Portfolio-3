@@ -1,7 +1,0 @@
-
-:root { --bg:#f4f9ff; --text:#222; --accent:#0057b8; }
-body { margin:0; font-family:Helvetica, sans-serif; background:var(--bg); color:var(--text); }
-header { display:flex; justify-content:space-between; padding:1rem; background:#0057b8; color:white; }
-.hero { text-align:center; padding:4rem 1rem; }
-button { background:var(--accent); border:none; color:#fff; padding:0.5rem 1rem; border-radius:5px; cursor:pointer; }
-.card { background:#fff; border:1px solid #ddd; padding:1rem; border-radius:5px; text-align:center; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
