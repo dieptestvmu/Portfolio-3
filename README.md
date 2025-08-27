@@ -7,7 +7,6 @@ Dùng để xây dựng trang cá nhân giới thiệu bản thân, dự án và
 
 ## 📂 Cấu trúc thư mục
 
-```
 
 portfolio-template/
 │── index.html      # Trang chính của website
